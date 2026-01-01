@@ -1,0 +1,22 @@
+; <<>> DiG 9.20.15-2-Debian <<>> MX nmap.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36743
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;nmap.org.                      IN      MX
+
+;; ANSWER SECTION:
+nmap.org.               3600    IN      MX      10 ASPMX2.GOOGLEMAIL.COM.
+nmap.org.               3600    IN      MX      5 ALT1.ASPMX.L.GOOGLE.COM.
+nmap.org.               3600    IN      MX      5 ALT2.ASPMX.L.GOOGLE.COM.
+nmap.org.               3600    IN      MX      10 ASPMX3.GOOGLEMAIL.COM.
+nmap.org.               3600    IN      MX      1 ASPMX.L.GOOGLE.COM.
+
+;; Query time: 84 msec
+;; SERVER: 68.105.28.11#53(68.105.28.11) (UDP)
+;; WHEN: Thu Jan 01 16:28:45 EST 2026
+;; MSG SIZE  rcvd: 170
