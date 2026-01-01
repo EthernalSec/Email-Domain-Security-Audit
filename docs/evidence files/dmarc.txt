@@ -1,0 +1,18 @@
+; <<>> DiG 9.20.15-2-Debian <<>> TXT _dmarc.nmap.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61060
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;_dmarc.nmap.org.               IN      TXT
+
+;; AUTHORITY SECTION:
+nmap.org.               900     IN      SOA     ns1.linode.com. hostmaster.nmap.com. 2021000017 14400 14400 1209600 3600
+
+;; Query time: 156 msec
+;; SERVER: 68.105.28.11#53(68.105.28.11) (UDP)
+;; WHEN: Thu Jan 01 16:39:36 EST 2026
+;; MSG SIZE  rcvd: 110
